@@ -1,0 +1,10 @@
+delete from employee where employeeID=1;
+select * from employee;
+select * from salary;
+insert ignore into employee values('000001','王浩','大专','1966-01-23',1,8,'中山路32号','83355668',2);
+insert ignore into salary values('000001',2100.8,123.09);
+update employee set workYear=3 where employeeID='010008';
+update employee set workYear=workYear+2 where employeeID='010008';
+#select * from employee where employeeID=1;
+select * from salary;
+update employee set workYear=3 where employeeID='010008';
